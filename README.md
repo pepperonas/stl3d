@@ -152,6 +152,8 @@ python stl-repair-tool.py defektes_modell.stl -v -o repariertes_modell.stl
 
 ## Hinweise
 
+- Es wird empfohlen das jeweilige Objekt vor der Bearbeitung im Bild freizustellen - hierfür kann
+  meine [ObjectCut](https://mrx3k1.de/objectcut-react/)-App genutzt werden
 - Die Qualität der 3D-Modelle hängt stark von der Qualität und Art der Eingabebilder ab
 - Größere oder hochauflösende Bilder können zu großen STL-Dateien führen
 - Für Fotos wird der Foto-Modus in contour-crafting.py empfohlen
