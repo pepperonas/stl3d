@@ -8,3 +8,6 @@ scikit-image>=0.18.0
 tqdm>=4.60.0
 trimesh>=3.9.0
 pyglet>=1.5.0  # Für die 3D-Visualisierung mit trimesh
+utils~=1.0.2
+stl~=0.0.3
+solid~=0.2.0
