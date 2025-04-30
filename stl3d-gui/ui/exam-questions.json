@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "58832707",
+    "number": "1.1",
+    "text": "Welche Anforderungen der ISO/IEC 27001 müssen erfüllt werden? (1)",
+    "options": [
+      {
+        "id": "58832708",
+        "text": "Es müssen alle Anforderungen des ISO/IEC 27001 erfüllt werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832709",
+        "text": "Es sollten die meisten Anforderungen des ISO/IEC 27001 erfüllt werden",
+        "isCorrect": false
+      },
+      {
+        "id": "58832710",
+        "text": "Nur die Anforderungen der ISO/IEC 27001 bezüglich der Informationssicherheitspolitik.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832711",
+        "text": "Nur die Anforderungen der ISO/IEC 27000 müssen erfüllt werden.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832712",
+    "number": "1.2",
+    "text": "Der Abschnitt „Bewertung der Leistung" entspricht im PDCA-Zyklus der Phase…(1)",
+    "options": [
+      {
+        "id": "58832713",
+        "text": "...PLAN",
+        "isCorrect": false
+      },
+      {
+        "id": "58832714",
+        "text": "...DO",
+        "isCorrect": false
+      },
+      {
+        "id": "58832715",
+        "text": "...CHECK",
+        "isCorrect": true
+      },
+      {
+        "id": "58832716",
+        "text": "...ACT",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832717",
+    "number": "1.3",
+    "text": "Die Verteilung der Rollen, Verantwortlichkeiten und Befugnisse in der Organisation in Bezug auf ISMS…(1+)",
+    "options": [
+      {
+        "id": "58832718",
+        "text": "…wird von der ISO/IEC 27001 genau vorgegeben.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832719",
+        "text": "…erfolgt in Anbetracht der erforderlichen Fachkenntnisse und Sozialkompetenzen.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832720",
+        "text": "…wird von der obersten Leitung vorgenommen.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832721",
+        "text": "…muss veröffentlicht werden",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832722",
+    "number": "1.4",
+    "text": "In welchen Zeitabständen müssen Organisationen gem. ISO/IEC 27001 interne Audits durchführen? (1)",
+    "options": [
+      {
+        "id": "58832723",
+        "text": "Jährlich",
+        "isCorrect": true
+      },
+      {
+        "id": "58832724",
+        "text": "Alle zwei Jahre",
+        "isCorrect": false
+      },
+      {
+        "id": "58832725",
+        "text": "In den jeweils von der Geschäftsführung geplanten Abständen.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832726",
+        "text": "Alle drei Jahre",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832727",
+    "number": "1.5",
+    "text": "Was sind die Aufgaben innerhalb des ISM-Teams? (1+)",
+    "options": [
+      {
+        "id": "58832728",
+        "text": "Erstellung eines Sicherheitskonzeptes",
+        "isCorrect": true
+      },
+      {
+        "id": "58832729",
+        "text": "Zertifizierung eines Sicherheitsprozesses",
+        "isCorrect": false
+      },
+      {
+        "id": "58832730",
+        "text": "Bestimmung der Informationssicherheitsziele und -strategien",
+        "isCorrect": true
+      },
+      {
+        "id": "58832731",
+        "text": "Konzeption von Schulungs- und Sensibilisierungsprogrammen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832732",
+    "number": "1.6",
+    "text": "Im Rahmen einer Informationssicherheitsrisikobeurteilung müssen die Risiken… (1+)",
+    "options": [
+      {
+        "id": "58832733",
+        "text": "..analysiert werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832734",
+        "text": "...identifiziert werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832735",
+        "text": "...bewertet werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832736",
+        "text": "...auditiert werden.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832737",
+    "number": "1.7",
+    "text": "Was spielt bei der Festlegung des Anwendungsbereichs eines ISMS gem. ISO/IEC 27001 keine Rolle? (1)",
+    "options": [
+      {
+        "id": "58832738",
+        "text": "Anzahl der Standorte der Organisation.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832739",
+        "text": "Budget der Organisation.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832740",
+        "text": "Werte der Organisation",
+        "isCorrect": false
+      },
+      {
+        "id": "58832741",
+        "text": "Anforderungen der interessierten Parteien",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832742",
+    "number": "1.8",
+    "text": "Was ist bei der Festlegung des Scope im Sinne eines ISMS zu beachten? (1+)",
+    "options": [
+      {
+        "id": "58832743",
+        "text": "Ob alle Kern- und Supportprozesse bekannt und berücksichtigt werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832744",
+        "text": "Wenn sich IT-Hardware in der Cloud befindet, muss der Scope nicht berücksichtigt werden.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832745",
+        "text": "Gesetze und Vorschriften müssen im Scope berücksichtigt werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832746",
+        "text": "Es müssen Produkte und Technologien definiert werden",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832747",
+    "number": "1.9",
+    "text": "Welches der folgenden Regelwerke für Informationssicherheit ist international genormt? (1)",
+    "options": [
+      {
+        "id": "58832748",
+        "text": "COBIT",
+        "isCorrect": false
+      },
+      {
+        "id": "58832749",
+        "text": "IT-Grundschutz-Standards",
+        "isCorrect": false
+      },
+      {
+        "id": "58832750",
+        "text": "ISO/IEC 27001",
+        "isCorrect": true
+      },
+      {
+        "id": "58832751",
+        "text": "ITIL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832752",
+    "number": "1.10",
+    "text": "Was bedeutet die Abkürzung SoA? (1)",
+    "options": [
+      {
+        "id": "58832753",
+        "text": "Statement of Application",
+        "isCorrect": false
+      },
+      {
+        "id": "58832754",
+        "text": "Service of Applicability",
+        "isCorrect": false
+      },
+      {
+        "id": "58832755",
+        "text": "Statement of Applicability",
+        "isCorrect": true
+      },
+      {
+        "id": "58832756",
+        "text": "Service of Application",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832757",
+    "number": "1.11",
+    "text": "Operative Aufgaben im Umfeld der Informationssicherheit werden umgesetzt vom: (1)",
+    "options": [
+      {
+        "id": "58832758",
+        "text": "CIO",
+        "isCorrect": false
+      },
+      {
+        "id": "58832759",
+        "text": "CISO",
+        "isCorrect": false
+      },
+      {
+        "id": "58832760",
+        "text": "ISO",
+        "isCorrect": true
+      },
+      {
+        "id": "58832761",
+        "text": "CSO",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832762",
+    "number": "1.12",
+    "text": "Ein ISMS ist zertifizierbar nach der… (1)",
+    "options": [
+      {
+        "id": "58832763",
+        "text": "…ISO/IEC 27001",
+        "isCorrect": true
+      },
+      {
+        "id": "58832764",
+        "text": "…ISO/IEC 27002",
+        "isCorrect": false
+      },
+      {
+        "id": "58832765",
+        "text": "…ISO/IEC 27004",
+        "isCorrect": false
+      },
+      {
+        "id": "58832766",
+        "text": "…ISO/IEC 27005",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832767",
+    "number": "1.13",
+    "text": "Was sind die grundlegenden Schutzziele der Informationssicherheit? (1+)",
+    "options": [
+      {
+        "id": "58832768",
+        "text": "Vertraulichkeit",
+        "isCorrect": true
+      },
+      {
+        "id": "58832769",
+        "text": "Transparenz",
+        "isCorrect": false
+      },
+      {
+        "id": "58832770",
+        "text": "Verfügbarkeit",
+        "isCorrect": true
+      },
+      {
+        "id": "58832771",
+        "text": "Integrität",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832772",
+    "number": "1.14",
+    "text": "Was versteht man unter Assets/Werte im Sinne eines ISMS? (1+)",
+    "options": [
+      {
+        "id": "58832773",
+        "text": "Vermögen des Unternehmens",
+        "isCorrect": true
+      },
+      {
+        "id": "58832774",
+        "text": "Ausgelagerte Services",
+        "isCorrect": true
+      },
+      {
+        "id": "58832775",
+        "text": "IT-Hardware/IT-Software",
+        "isCorrect": true
+      },
+      {
+        "id": "58832776",
+        "text": "Personen/Personengruppe, die relevante Informationen besitzen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832777",
+    "number": "1.15",
+    "text": "Was sind die Unterschiede zwischen Datenschutz und Informationssicherheit? (1+)",
+    "options": [
+      {
+        "id": "58832778",
+        "text": "Die Umsetzung des Datenschutzes unterliegt strengen gesetzlichen Anforderungen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832779",
+        "text": "Beim Datenschutz können Unternehmen unterschiedliche Ansätze und Konzepte einführen.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832780",
+        "text": "Bei der Informationssicherheit können Unternehmen unterschiedliche Ansätze und Konzepte einführen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832781",
+        "text": "Die Umsetzung der Informationssicherheit unterliegt strengen gesetzlichen Anforderungen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832782",
+    "number": "1.16",
+    "text": "Was ist das Ziel des Informationssicherheitsrisikobehandlungsprozesses? (1+)",
+    "options": [
+      {
+        "id": "58832783",
+        "text": "Bei den Risikoeigentümern eine Genehmigung einzuholen",
+        "isCorrect": false
+      },
+      {
+        "id": "58832784",
+        "text": "Maßnahmen zur Umsetzung der Optionen festzulegen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832785",
+        "text": "Dass er im Einklang mit der Informationssicherheitspolitik steht",
+        "isCorrect": true
+      },
+      {
+        "id": "58832786",
+        "text": "Angemessene Optionen für die Risikobehandlung auszuwählen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832787",
+    "number": "1.17",
+    "text": "Welche Aufgaben haben üblicherweise Informationssicherheitsbeauftragte? (1+)",
+    "options": [
+      {
+        "id": "58832788",
+        "text": "die Entwicklung von Sicherheitskonzepten zu koordinieren",
+        "isCorrect": true
+      },
+      {
+        "id": "58832789",
+        "text": "die eingesetzte Sicherheitstechnik zu konfigurieren",
+        "isCorrect": false
+      },
+      {
+        "id": "58832790",
+        "text": "der Leitungsebene über den Stand der Informationssicherheit zu berichten",
+        "isCorrect": true
+      },
+      {
+        "id": "58832791",
+        "text": "Presseanfragen zu dem Stand der Informationssicherheit im Unternehmen zu beantworten",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832792",
+    "number": "1.18",
+    "text": "Wer ist für die Freigabe der Leitlinie zur Informationssicherheit verantwortlich? (1)",
+    "options": [
+      {
+        "id": "58832793",
+        "text": "das IS-Management-Team",
+        "isCorrect": false
+      },
+      {
+        "id": "58832794",
+        "text": "der ISB",
+        "isCorrect": false
+      },
+      {
+        "id": "58832795",
+        "text": "die Unternehmens- oder Behördenleitung",
+        "isCorrect": true
+      },
+      {
+        "id": "58832796",
+        "text": "die Öffentlichkeitsabteilung eines Unternehmens oder einer Behörde",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832797",
+    "number": "1.19",
+    "text": "Welche wesentlichen Ziele muss ein ISO/ eine ISMS-Organisation verfolgen? (1+)",
+    "options": [
+      {
+        "id": "58832798",
+        "text": "Sicherheitsvorfälle aufdecken und angemessen untersuchen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832799",
+        "text": "Das Management von der Notwendigkeit der Informationssicherheit überzeugen",
+        "isCorrect": false
+      },
+      {
+        "id": "58832800",
+        "text": "Sensibilisierungs- und Schulungsmaßnahmen initiieren",
+        "isCorrect": true
+      },
+      {
+        "id": "58832801",
+        "text": "Die Einhaltung von Richtlinien kontrollieren",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832802",
+    "number": "1.20",
+    "text": "Die Europäische Datenschutzgrundverordnung (EU-DSGVO) gilt...(1+)",
+    "options": [
+      {
+        "id": "58832803",
+        "text": "...nicht für die Einrichtung des Gesundheitswesens, da diese einer eigenen Datenschutzgesetzgebung unterworfen sind.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832804",
+        "text": "...für alle öffentlichen Einrichtung des Bundes, die personenbezogenen Daten verarbeiten",
+        "isCorrect": true
+      },
+      {
+        "id": "58832805",
+        "text": "...für alle nicht-öffentlichen Einrichtungen, die personenbezogene Daten verarbeiten",
+        "isCorrect": true
+      },
+      {
+        "id": "58832806",
+        "text": "...nicht für Kleinunternehmer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832807",
+    "number": "1.21",
+    "text": "Die Verantwortung der obersten Leitung gemäß der ISO/IEC 27001 umfasst: (1+)",
+    "options": [
+      {
+        "id": "58832808",
+        "text": "Bildung eines 5-köpfigem ISM-Teams",
+        "isCorrect": false
+      },
+      {
+        "id": "58832809",
+        "text": "Förderung der fortlaufenden Verbesserung",
+        "isCorrect": true
+      },
+      {
+        "id": "58832810",
+        "text": "Festlegung der Informationssicherheitspolitik",
+        "isCorrect": true
+      },
+      {
+        "id": "58832811",
+        "text": "Bereitstellung der für das ISMS erforderlichen Ressourcen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832812",
+    "number": "1.22",
+    "text": "Zu den externen Themen/Faktoren, die den Kontext der Organisation beeinflussen können, gehören: (1+)",
+    "options": [
+      {
+        "id": "58832813",
+        "text": "Gesetze",
+        "isCorrect": true
+      },
+      {
+        "id": "58832814",
+        "text": "Markt",
+        "isCorrect": true
+      },
+      {
+        "id": "58832815",
+        "text": "Unternehmenswerte",
+        "isCorrect": false
+      },
+      {
+        "id": "58832816",
+        "text": "Wissen der Organisation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832817",
+    "number": "1.23",
+    "text": "Compliance-Richtlinien dienen... (1)",
+    "options": [
+      {
+        "id": "58832818",
+        "text": "...der Festlegung von Informationssicherheitskennzahlen",
+        "isCorrect": false
+      },
+      {
+        "id": "58832819",
+        "text": "...der Umsetzung und Einhaltung regulatorischer, vertraglicher und gesetzlicher Vorgaben",
+        "isCorrect": true
+      },
+      {
+        "id": "58832820",
+        "text": "...der Software-Steuerung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832821",
+        "text": "...der Verwaltung von Lieferantenbeziehungen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832822",
+    "number": "1.24",
+    "text": "Warum wird eine Managementbewertung (Management-Review) durchgeführt? (1)",
+    "options": [
+      {
+        "id": "58832823",
+        "text": "Als Nachweis für die Zertifizierungsstelle zur Einführung des ISMS",
+        "isCorrect": false
+      },
+      {
+        "id": "58832824",
+        "text": "Die Managementbewertung ist die Grundlage für die Konformitätsbewertung durch einen externen Auditor",
+        "isCorrect": false
+      },
+      {
+        "id": "58832825",
+        "text": "Um die fortdauernde Eignung, Angemessenheit und Wirksamkeit des ISMS sicherzustellen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832826",
+        "text": "Um eine einmalige Bewertung der Qualifikationen der obersten Leitung zu dokumentieren",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832827",
+    "number": "1.25",
+    "text": "Welche Vorteile kann eine Zertifizierung nach ISO/IEC 27001 bringen? (1+)",
+    "options": [
+      {
+        "id": "58832828",
+        "text": "Erhöhung der Wettbewerbsfähigkeit",
+        "isCorrect": true
+      },
+      {
+        "id": "58832829",
+        "text": "Erhöhung des Haftungsrisikos",
+        "isCorrect": false
+      },
+      {
+        "id": "58832830",
+        "text": "Höhere Rechtssicherheit",
+        "isCorrect": true
+      },
+      {
+        "id": "58832831",
+        "text": "Höheres Risiko für die Datensicherheit",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832832",
+    "number": "1.26",
+    "text": "Welche Aussagen bezüglich des internen Audits gemäß ISO/IEC 27001 sind nicht richtig? (1+)",
+    "options": [
+      {
+        "id": "58832833",
+        "text": "Im internen Audit muss man alle Bereiche des Unternehmens überprüfen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832834",
+        "text": "Im internen Audit wird die Wirksamkeit des ISMS überprüft",
+        "isCorrect": false
+      },
+      {
+        "id": "58832835",
+        "text": "Das interne Audit ist alle 2 Jahre durchzuführen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832836",
+        "text": "Interne Audits dürfen zur Gewährung der Objektivität nur von externem Personal durchgeführt werden",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832837",
+    "number": "1.27",
+    "text": "Was ist unter dem Schutzziel \"Verfügbarkeit\" im Sinne der Informationssicherheit zu verstehen? (1)",
+    "options": [
+      {
+        "id": "58832838",
+        "text": "Alle Daten stehen jedem zur Verfügung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832839",
+        "text": "Daten sind für befugte Personen verfügbar und der Zugang zu ihnen kann nach einem physischen oder technischen Zwischenfall rasch wiederhergestellt werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832840",
+        "text": "Vor der Erfassung der Daten wird die Verfügbarkeit der benötigten Ressourcen geprüft",
+        "isCorrect": false
+      },
+      {
+        "id": "58832841",
+        "text": "Die Berechtigung zur Verarbeitung der Daten darf jedem erteilt werden",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832842",
+    "number": "1.28",
+    "text": "Welche sind die grundsätzlichen Aufgaben der IT-Sicherheit? (1+)",
+    "options": [
+      {
+        "id": "58832843",
+        "text": "Integrität der IT-Systeme sicherstellen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832844",
+        "text": "Verfügbarkeit der IT-Systeme sicherstellen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832845",
+        "text": "Schutz der Personen",
+        "isCorrect": false
+      },
+      {
+        "id": "58832846",
+        "text": "Vertraulichkeit der Information sicherstellen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832847",
+    "number": "1.29",
+    "text": "Die Informationssicherheitspolitik gemäß der ISO/IEC 27001... (1)",
+    "options": [
+      {
+        "id": "58832848",
+        "text": "...ist Aufgabe des IT-Administrators",
+        "isCorrect": false
+      },
+      {
+        "id": "58832849",
+        "text": "...wird von der Norm genau vorgegeben",
+        "isCorrect": false
+      },
+      {
+        "id": "58832850",
+        "text": "...muss nicht als dokumentierte Information vorliegen",
+        "isCorrect": false
+      },
+      {
+        "id": "58832851",
+        "text": "...ist die Verantwortung der Führung",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832852",
+    "number": "1.30",
+    "text": "Wie oft muss eine Risikobeurteilung durchgeführt werden? (1+)",
+    "options": [
+      {
+        "id": "58832853",
+        "text": "Einmal im Jahr",
+        "isCorrect": false
+      },
+      {
+        "id": "58832854",
+        "text": "In den geplanten Abständen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832855",
+        "text": "Dreimal im Jahr",
+        "isCorrect": false
+      },
+      {
+        "id": "58832856",
+        "text": "Nach erheblichen internen Veränderungen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832857",
+    "number": "1.31",
+    "text": "Wie muss beim Auftreten einer Nichtkonformität reagiert werden? (1+)",
+    "options": [
+      {
+        "id": "58832858",
+        "text": "Sofortige Durchführung einer Managementbewertung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832859",
+        "text": "Ursachenforschung einleiten",
+        "isCorrect": true
+      },
+      {
+        "id": "58832860",
+        "text": "Zunächst die Freigabe des Geschäftsführers abwarten",
+        "isCorrect": false
+      },
+      {
+        "id": "58832861",
+        "text": "Erforderliche Maßnahmen ergreifen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832862",
+    "number": "1.32",
+    "text": "Gefährdung entsteht beim Zusammentreffen von: (1)",
+    "options": [
+      {
+        "id": "58832863",
+        "text": "Eintrittswahrscheinlichkeit und Wirkungsdauer",
+        "isCorrect": false
+      },
+      {
+        "id": "58832864",
+        "text": "Risiko und Anzahl der Sicherheitsvorfälle",
+        "isCorrect": false
+      },
+      {
+        "id": "58832865",
+        "text": "Bedrohung und Schwachstelle",
+        "isCorrect": true
+      },
+      {
+        "id": "58832866",
+        "text": "Ausfall und Schadenshöhe",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832867",
+    "number": "1.33",
+    "text": "Im Rahmen des Business Continuity Managements... (1+)",
+    "options": [
+      {
+        "id": "58832868",
+        "text": "...werden verschiedenen Ereignissen (Incidents) betrachtet, wie z.B. IT-Systemausfall oder Personalausfall",
+        "isCorrect": true
+      },
+      {
+        "id": "58832869",
+        "text": "...wird hauptsächlich eine Ursachenanalyse durchgeführt",
+        "isCorrect": false
+      },
+      {
+        "id": "58832870",
+        "text": "...ist das Hauptziel, Maßnahmen festzulegen, die verhindern, dass Notfallsituationen überhaupt entstehen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832871",
+        "text": "...müssen die festgelegten Maßnahmen zur Aufrechterhaltung der Informationssicherheit in regelmäßigen Abständen überprüft werden",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832873",
+    "number": "1.34",
+    "text": "Gemäß der ISO/IEC 27001 sollte die Informationssicherheitsrichtlinie (IS-Politik) … (1+)",
+    "options": [
+      {
+        "id": "58832874",
+        "text": "…veröffentlicht werden.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832875",
+        "text": "…von dem Informationssicherheitsbeauftragten verabschiedet werden.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832876",
+        "text": "…den Beschäftigten und allen maßgeblichen externen Parteien kommuniziert werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832877",
+        "text": "…nicht als dokumentierte Information verfügbar sein",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832878",
+    "number": "1.35",
+    "text": "Warum ist die Lenkung dokumentierter Information erforderlich? (1+)",
+    "options": [
+      {
+        "id": "58832879",
+        "text": "Um die Nachvollziehbarkeit von Änderungen der dokumentierten Informationen sicherzustellen.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832880",
+        "text": "Um sicherzustellen, dass keine falschen oder nicht mehr aktuell dokumentierte Informationen verwendet werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832881",
+        "text": "Um den Zugriff aller interessierten Personen auf die dokumentierte Information jederzeit sicherzustellen.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832882",
+        "text": "Um die Verfügbarkeit dokumentierter Informationen sicherzustellen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832883",
+    "number": "1.36",
+    "text": "Was ist der Unterschied zwischen Bedrohung und Schwachstelle im Bereich Informationssicherheit? (1+)",
+    "options": [
+      {
+        "id": "58832884",
+        "text": "Eine Bedrohung wird durch eine schon vorhandene Schwachstelle zur Gefährdung für ein Objekt.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832885",
+        "text": "Durch eine Schwachstelle wird ein Objekt sehr anfällig für eine Bedrohung",
+        "isCorrect": true
+      },
+      {
+        "id": "58832886",
+        "text": "Eine Bedrohung ist ein Umstand oder Ereignis, durch den oder das ein Schaden entstehen kann.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832887",
+        "text": "Eine Bedrohung führt immer zum Schaden.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832888",
+    "number": "1.37",
+    "text": "Welche Norm enthält Umsetzungsempfehlungen zu den Maßnahmen der ISO/IEC 27001? (1)",
+    "options": [
+      {
+        "id": "58832889",
+        "text": "ISO/IEC 27001a",
+        "isCorrect": false
+      },
+      {
+        "id": "58832890",
+        "text": "ISO/IEC 27002",
+        "isCorrect": true
+      },
+      {
+        "id": "58832891",
+        "text": "ISO/IEC 27006",
+        "isCorrect": false
+      },
+      {
+        "id": "58832892",
+        "text": "ISO/IEC 27007",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832893",
+    "number": "1.38",
+    "text": "Welche Schritte sind für den Aufbau eines ISMS gemäß ISO/IEC 27001 erforderlich? (1+)",
+    "options": [
+      {
+        "id": "58832894",
+        "text": "Implementierung eines Risikoprozesses",
+        "isCorrect": true
+      },
+      {
+        "id": "58832895",
+        "text": "Ermittlung von Controls zur Risikobehandlung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832896",
+        "text": "Identifizierung der Geschäftsprozesse",
+        "isCorrect": true
+      },
+      {
+        "id": "58832897",
+        "text": "Kontext der Organisation festlegen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832898",
+    "number": "1.39",
+    "text": "Eine Risiko-Matrix... (1+)",
+    "options": [
+      {
+        "id": "58832899",
+        "text": "...unterteilt die Risiken in beherrschbare und nicht beherrschbare Risiken",
+        "isCorrect": false
+      },
+      {
+        "id": "58832900",
+        "text": "...ist eine eindimensionale Visualisierung der Risiken",
+        "isCorrect": false
+      },
+      {
+        "id": "58832901",
+        "text": "...ist eine graphische Darstellung der identifizierten und bewerteten Risiken",
+        "isCorrect": true
+      },
+      {
+        "id": "58832902",
+        "text": "...kategorisiert die Risiken nach Eintrittshäufigkeit und Schadenshöhe",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832903",
+    "number": "1.40",
+    "text": "Im Access Management wir der Begriff \"Zutritt\" benutzt. Was bedeutet dieser? (1)",
+    "options": [
+      {
+        "id": "58832904",
+        "text": "Die Fähigkeit sich an Systemen anmelden zu können.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832905",
+        "text": "Die Fähigkeit auf Daten und Informationen zugreifen zu können.",
+        "isCorrect": false
+      },
+      {
+        "id": "58832906",
+        "text": "Die Fähigkeit als physische Person an datenverbeitende Anlagen und Speichermedien zu gelangen.",
+        "isCorrect": true
+      },
+      {
+        "id": "58832907",
+        "text": "Keine der genannten Aussagen ist richtig",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832908",
+    "number": "1.41",
+    "text": "Was versteht ISO/IEC 27000 unter dem Begriff Vertraulichkeit? (1)",
+    "options": [
+      {
+        "id": "58832909",
+        "text": "Den Abschluss einer Vertraulichkeitsvereinbarung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832910",
+        "text": "Die Geheimhaltungsverpflichtung aller Mitarbeiter, die Zugriff auf das ISMS haben",
+        "isCorrect": false
+      },
+      {
+        "id": "58832911",
+        "text": "Die Vertraulichkeit schützt die Werte im Hinblick auf ihre Richtigkeit und Vollständigkeit",
+        "isCorrect": false
+      },
+      {
+        "id": "58832912",
+        "text": "Eine Information ist für unautorisierte Personen, Entitäten oder Prozesse nicht zugänglich",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832913",
+    "number": "1.42",
+    "text": "Was versteht ISO/IEC 27000 unter dem Begriff Verfügbarkeit? (1)",
+    "options": [
+      {
+        "id": "58832914",
+        "text": "Die Eigenschaft einer Information oder eines Wertes, für eine berechtigte Person oder Entität zugreifbar und nutzbar zu sein",
+        "isCorrect": true
+      },
+      {
+        "id": "58832915",
+        "text": "Die Eigenschaft einer informationsverarbeitenden Einrichtung, genügend Ressourcen für eine Aufgabe zur Verfügung zu haben",
+        "isCorrect": false
+      },
+      {
+        "id": "58832916",
+        "text": "Die Eigenschaft einer Information oder eines Wertes, vor Manipulation geschützt zu sein",
+        "isCorrect": false
+      },
+      {
+        "id": "58832917",
+        "text": "Die Eigenschaft einer Information oder eines Wertes, vor Offenlegung geschützt zu sein",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832918",
+    "number": "1.43",
+    "text": "Was bezeichnet ISO/IEC 27000 mit dem Begriff „dokumentierte Information\"? (1)",
+    "options": [
+      {
+        "id": "58832919",
+        "text": "Beschreibung dessen, was als Ergebnis umgesetzter Maßnahmen erzielt werden soll",
+        "isCorrect": false
+      },
+      {
+        "id": "58832920",
+        "text": "Information, die von einer Organisation gelenkt und aufrechterhalten werden muss, und das Medium, auf dem sie enthalten ist",
+        "isCorrect": true
+      },
+      {
+        "id": "58832921",
+        "text": "Satz von in Wechselbeziehungen stehenden Mitteln und Tätigkeiten, die Eingaben in Ergebnisse umwandeln",
+        "isCorrect": false
+      },
+      {
+        "id": "58832922",
+        "text": "Alles, was für eine Organisation von Wert ist",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832923",
+    "number": "1.44",
+    "text": "Was versteht man gemäß ISO/IEC 27000 unter einem Prozess? (1)",
+    "options": [
+      {
+        "id": "58832924",
+        "text": "Eine Maßnahme zur Veränderung eines Risikos",
+        "isCorrect": false
+      },
+      {
+        "id": "58832925",
+        "text": "Die Ausführung eines Computerprogramms durch eine informationsverarbeitende Einrichtung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832926",
+        "text": "Ein Satz von zusammenhängenden und sich gegenseitig beeinflussenden Tätigkeiten, der Eingaben in Ergebnisse umwandelt",
+        "isCorrect": true
+      },
+      {
+        "id": "58832927",
+        "text": "Gerichtsverhandlung",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832928",
+    "number": "1.45",
+    "text": "Wobei handelt es sich nicht um einen relevanten Aspekt der Informationssicherheitsrisikobehandlung gemäß ISO/IEC 27001? (1)",
+    "options": [
+      {
+        "id": "58832929",
+        "text": "Auswahl angemessener Optionen für die Risikobehandlung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832930",
+        "text": "Erstellung einer Erklärung zur Anwendbarkeit",
+        "isCorrect": false
+      },
+      {
+        "id": "58832931",
+        "text": "Formulierung eines Plans für die Risikobehandlung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832932",
+        "text": "Einholen der Genehmigung für die Akzeptanz von Restrisiken bei der Zertifizierungsstelle",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832933",
+    "number": "1.46",
+    "text": "Wie definiert ISO/IEC 27000 den Begriff Risikoanalyse? (1)",
+    "options": [
+      {
+        "id": "58832934",
+        "text": "Koordinierte Aktivitäten zur Leitung und Kontrolle einer Organisation in Bezug auf Risiken",
+        "isCorrect": false
+      },
+      {
+        "id": "58832935",
+        "text": "Prozess für die Auswahl von Maßnahmen zur Behandlung identifizierter Risiken",
+        "isCorrect": false
+      },
+      {
+        "id": "58832936",
+        "text": "Festlegungen, um die Signifikanz eines Risikos zu bewerten",
+        "isCorrect": false
+      },
+      {
+        "id": "58832937",
+        "text": "Prozess, um die Beschaffenheit eines Risikos zu verstehen und das Risikoniveau zu bestimmen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832938",
+    "number": "1.47",
+    "text": "Welche Arten von Audits sind in der Regel nach ISO/IEC 27000 zu unterscheiden? (1)",
+    "options": [
+      {
+        "id": "58832939",
+        "text": "Vollständige und unvollständige",
+        "isCorrect": false
+      },
+      {
+        "id": "58832940",
+        "text": "Interne und externe",
+        "isCorrect": true
+      },
+      {
+        "id": "58832941",
+        "text": "Objektive und subjektive",
+        "isCorrect": false
+      },
+      {
+        "id": "58832942",
+        "text": "Angekündigte und unangekündigte",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832943",
+    "number": "1.48",
+    "text": "Welche Aufgabe hat ein Risikoeigentümer im Hinblick auf die Informationssicherheitsrisikobehandlung? (1)",
+    "options": [
+      {
+        "id": "58832944",
+        "text": "Der Risikoeigentümer muss alle Restrisiken identifizieren und beseitigen",
+        "isCorrect": false
+      },
+      {
+        "id": "58832945",
+        "text": "Der Risikoeigentümer muss den vorgeschlagenen Restrisiken zustimmen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832946",
+        "text": "Der Risikoeigentümer ist für die Umsetzung des ISMS zuständig",
+        "isCorrect": false
+      },
+      {
+        "id": "58832947",
+        "text": "Der Risikoeigentümer schreibt die Festlegungen des ISMS in einem Managementplan nieder",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "58832948",
+    "number": "1.49",
+    "text": "Über das Access Management gibt es die Möglichkeit, Sicherheitsbereiche einzurichten. Was ist bei der Erstellung eines Sicherheitsbereiches zu beachten? (1+)",
+    "options": [
+      {
+        "id": "58832949",
+        "text": "Unbeaufsichtigte Tätigkeiten in Sicherheitsbereichen sollten vermieden werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832950",
+        "text": "Es müssen verfahren für die Arbeit in Sicherheitsbereichen ausgearbeitet und angewendet werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832951",
+        "text": "Das Mitführen von Foto-, Video-, oder Audio Aufzeichnungsgeräten sollte untersagt werden",
+        "isCorrect": true
+      },
+      {
+        "id": "58832952",
+        "text": "Sicherheitsbereiche sollten in unterschiedliche Zonen gegliedert und definiert werden",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "58832953",
+    "number": "1.50",
+    "text": "Wie hängen die drei Standards ISO 9000, ISO/IEC 20000 und ISO/IEC 27001 zusammen? (1)",
+    "options": [
+      {
+        "id": "58832954",
+        "text": "ISO/IEC 27000 ist eine Kombination aus ISO 9000 und ISO/IEC 20000",
+        "isCorrect": false
+      },
+      {
+        "id": "58832955",
+        "text": "Diese drei Normen behandeln Managementsysteme in zum Teil überlappenden Anwendungsbereichen",
+        "isCorrect": true
+      },
+      {
+        "id": "58832956",
+        "text": "Diese drei Normen behandeln Management und Qualitätssicherung",
+        "isCorrect": false
+      },
+      {
+        "id": "58832957",
+        "text": "Die Zertifizierungen für diese Standards bauen aufeinander auf, d. h. eine Zertifizierung nach ISO/IEC 27001 ist nur möglich, wenn das Unternehmen auch nach ISO 9000 zertifiziert wurde",
+        "isCorrect": false
+      }
+    ]
+  }
+]

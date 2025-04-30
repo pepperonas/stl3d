@@ -14,7 +14,7 @@ import datetime
 def image_to_stl(image_path, output_path, width=None, height=None,
                  max_height=5.0, base_height=1.0, invert=False,
                  smooth=1, threshold=None, border=2, max_size=170,
-                 object_only=False):
+                 object_only=False, rotate_x=False, rotate_y=False, rotate_z=False):
     """
     Konvertiert ein Bild in eine STL-Datei
 
@@ -31,6 +31,9 @@ def image_to_stl(image_path, output_path, width=None, height=None,
         border: Randbreite in Pixeln
         max_size: Maximale Dimension in mm
         object_only: Nur das Objekt ohne Grundplatte erstellen
+        rotate_x: Wenn True, wird das Modell um 90 Grad um die X-Achse gedreht
+        rotate_y: Wenn True, wird das Modell um 90 Grad um die Y-Achse gedreht
+        rotate_z: Wenn True, wird das Modell um 90 Grad um die Z-Achse gedreht
     """
     # Benötigte Bibliotheken importieren
     try:
@@ -437,6 +440,25 @@ def image_to_stl(image_path, output_path, width=None, height=None,
     vertices = np.array(vertices, dtype=np.float32)
     faces = np.array(faces, dtype=np.uint32)
 
+    # Rotationen anwenden
+    if rotate_x:
+        # Rotation um die X-Achse um 90 Grad
+        y_temp = vertices[:, 1].copy()
+        vertices[:, 1] = vertices[:, 2]  # Y = Z
+        vertices[:, 2] = -y_temp  # Z = -Y
+
+    if rotate_y:
+        # Rotation um die Y-Achse um 90 Grad
+        x_temp = vertices[:, 0].copy()
+        vertices[:, 0] = vertices[:, 2]  # X = Z
+        vertices[:, 2] = -x_temp  # Z = -X
+
+    if rotate_z:
+        # Rotation um die Z-Achse um 90 Grad
+        x_temp = vertices[:, 0].copy()
+        vertices[:, 0] = vertices[:, 1]  # X = Y
+        vertices[:, 1] = -x_temp  # Y = -X
+
     # STL-Modell erstellen
     # Anzahl der Dreiecke
     num_faces = len(faces)
@@ -474,6 +496,14 @@ def main():
     parser.add_argument("--object-only", action="store_true", help="Nur das Objekt ohne Grundplatte erstellen")
     parser.add_argument("--timestamp", action="store_true",
                         help="Zeitstempel (yyyy-MM-dd-HH-mm-ss) an Ausgabedatei anfügen")
+
+    # Rotationsoptionen
+    parser.add_argument("--rotate-x", action="store_true",
+                        help="Modell um 90 Grad um die X-Achse drehen")
+    parser.add_argument("--rotate-y", action="store_true",
+                        help="Modell um 90 Grad um die Y-Achse drehen")
+    parser.add_argument("--rotate-z", action="store_true",
+                        help="Modell um 90 Grad um die Z-Achse drehen")
 
     args = parser.parse_args()
 
@@ -522,7 +552,10 @@ def main():
         threshold=args.threshold,
         border=args.border,
         max_size=args.max_size,
-        object_only=args.object_only
+        object_only=args.object_only,
+        rotate_x=args.rotate_x,
+        rotate_y=args.rotate_y,
+        rotate_z=args.rotate_z
     )
 
 
