@@ -13,6 +13,7 @@ from ui.image_to_stl_tab import ImageToSTLTab
 from ui.contour_crafting_tab import ContourCraftingTab
 from ui.topographic_tab import TopographicTab
 from ui.stl_repair_tab import STLRepairTab
+from ui.text_to_stl_tab import TextToSTLTab
 
 # Plattformspezifische Importe
 if sys.platform == 'darwin':  # macOS
@@ -62,7 +63,8 @@ class STL3DApp:
             "image-to-stl",
             "contour-crafting",
             "topographic-layering",
-            "stl-repair"
+            "stl-repair",
+            "text-to-stl"  # Neues Verzeichnis für Text-zu-STL
         ]
 
         for module_dir in module_dirs:
@@ -158,6 +160,10 @@ class STL3DApp:
         repair_tab = ttk.Frame(self.notebook)
         self.notebook.add(repair_tab, text="STL-Reparatur")
 
+        # Text to STL Tab (NEU)
+        text_to_stl_tab = ttk.Frame(self.notebook)
+        self.notebook.add(text_to_stl_tab, text="Text zu STL")
+
         # Log-Umleitung für alle Tabs
         log_widget = None
 
@@ -166,6 +172,7 @@ class STL3DApp:
         self.contour_crafting = ContourCraftingTab(contour_tab, self.status_var, self.log_redirect)
         self.topographic = TopographicTab(topo_tab, self.status_var, self.log_redirect)
         self.stl_repair = STLRepairTab(repair_tab, self.status_var, self.log_redirect)
+        self.text_to_stl = TextToSTLTab(text_to_stl_tab, self.status_var, self.log_redirect)  # NEU
 
         # Verwende das erste Log-Widget für Umleitung
         log_widget = self.image_to_stl.log_text
@@ -183,6 +190,8 @@ class STL3DApp:
                 sys.stdout = RedirectText(self.topographic.log_text)
             elif tab_idx == 3:  # STL Repair
                 sys.stdout = RedirectText(self.stl_repair.log_text)
+            elif tab_idx == 4:  # Text to STL
+                sys.stdout = RedirectText(self.text_to_stl.log_text)
 
         self.notebook.bind("<<NotebookTabChanged>>", on_tab_change)
 
@@ -229,6 +238,16 @@ class STL3DApp:
                 self.stl_repair.output_entry.delete(0, tk.END)
                 self.stl_repair.output_entry.insert(0, output_file)
 
+            elif extension in ['.ttf', '.otf', '.ttc']:
+                # Schriftartdatei
+                tab_idx = 4  # Text to STL
+                self.notebook.select(tab_idx)
+
+                # Aktualisiere Schriftart-Pfad
+                self.text_to_stl.font_path_var.set(file_path)
+                # Aktualisiere Vorschau
+                self.text_to_stl.update_preview()
+
             self.status_var.set(f"Datei geladen: {file_path}")
 
         # Drag & Drop für das Hauptfenster einrichten
@@ -246,9 +265,10 @@ class STL3DApp:
     def open_file(self):
         """Öffnet eine Datei über einen Dateiauswahldialog"""
         filetypes = [
-            ("Unterstützte Dateien", "*.jpg *.jpeg *.png *.bmp *.gif *.tiff *.stl"),
+            ("Unterstützte Dateien", "*.jpg *.jpeg *.png *.bmp *.gif *.tiff *.stl *.ttf *.otf *.ttc"),
             ("Bilddateien", "*.jpg *.jpeg *.png *.bmp *.gif *.tiff"),
             ("STL-Dateien", "*.stl"),
+            ("Schriftarten", "*.ttf *.otf *.ttc"),
             ("Alle Dateien", "*.*")
         ]
         filename = filedialog.askopenfilename(filetypes=filetypes)
@@ -257,7 +277,7 @@ class STL3DApp:
             self.status_var.set("Datei wird geladen...")
             # Verarbeite die Datei wie ein Drop-Event
             filename_ext = os.path.splitext(filename.lower())[1]
-            if filename_ext in ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff', '.stl']:
+            if filename_ext in ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff', '.stl', '.ttf', '.otf', '.ttc']:
                 self.setup_drag_drop()  # Stelle sicher, dass Drag & Drop eingerichtet ist
                 # Fingiere ein Drag & Drop mit dem ausgewählten Dateinamen
                 filename, extension = os.path.splitext(filename.lower())
@@ -291,6 +311,16 @@ class STL3DApp:
                     output_file = f"{base_name}_repaired.stl"
                     self.stl_repair.output_entry.delete(0, tk.END)
                     self.stl_repair.output_entry.insert(0, output_file)
+
+                elif extension in ['.ttf', '.otf', '.ttc']:
+                    # Schriftartdatei
+                    tab_idx = 4  # Text to STL
+                    self.notebook.select(tab_idx)
+
+                    # Aktualisiere Schriftart-Pfad
+                    self.text_to_stl.font_path_var.set(filename + extension)
+                    # Aktualisiere Vorschau
+                    self.text_to_stl.update_preview()
 
                 self.status_var.set(f"Datei geladen: {filename + extension}")
 

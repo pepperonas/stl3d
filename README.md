@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Enthaltene Werkzeuge
 
-Das Paket enthält vier Hauptskripte für unterschiedliche 3D-Modellierungsansätze:
+Das Paket enthält fünf Hauptskripte für unterschiedliche 3D-Modellierungsansätze:
 
 ### 1. image-to-stl.py
 
@@ -100,6 +100,26 @@ python stl-repair-tool.py modell.stl -v -i --timestamp
 - Detaillierte Ausgabe-Option
 - Zeitstempel-Option
 
+### 5. text-to-stl.py (NEU)
+
+Erstellt 3D-Modelle aus Text mit anpassbaren Schriftarten und Eigenschaften.
+
+**Beispiel:**
+
+```bash
+python text-to-stl.py "Mein Text" --font-size 60 --thickness 10 --timestamp
+```
+
+**Hauptfunktionen:**
+
+- Erstellung von 3D-Text mit benutzerdefinierten Schriftarten
+- Anpassbare Textgröße und -dicke
+- Option zum Hinzufügen einer Bodenplatte
+- Spiegelung des Textes
+- Weichzeichnungsoptionen für abgerundete Kanten
+- Zeitstempel-Option
+- Vorschaufunktion für das Endergebnis
+
 ## Gemeinsame Funktionen
 
 Alle Skripte bieten:
@@ -123,6 +143,24 @@ Alle Skripte bieten:
     - tqdm
     - trimesh
     - pyglet
+
+## GUI-Anwendung
+
+Das Paket enthält eine grafische Benutzeroberfläche, die alle Werkzeuge integriert:
+
+```bash
+cd stl3d-gui
+python main.py
+```
+
+Die GUI bietet:
+
+- Benutzerfreundliche Oberfläche für alle Werkzeuge
+- Echtzeit-Vorschau bei Text-zu-STL-Konvertierung
+- Drag & Drop-Unterstützung für Bilder, STL-Dateien und Schriftarten
+- Umfangreiche Einstellungsmöglichkeiten für alle Parameter
+- Log-Ausgabe für detaillierte Informationen
+- Material Design-Oberfläche
 
 ## Anwendungsbeispiele
 
@@ -150,6 +188,12 @@ python topographic-layering.py landkarte.jpg -z 20 -s 2.0 -o landkarte_topo.stl
 python stl-repair-tool.py defektes_modell.stl -v -o repariertes_modell.stl
 ```
 
+### Erstellen eines 3D-Textmodells
+
+```bash
+python text-to-stl.py "Mein 3D-Text" --font-size 80 --thickness 15 --add-base
+```
+
 ## Hinweise
 
 - Es wird empfohlen das jeweilige Objekt vor der Bearbeitung im Bild freizustellen - hierfür kann
@@ -159,3 +203,4 @@ python stl-repair-tool.py defektes_modell.stl -v -o repariertes_modell.stl
 - Für Fotos wird der Foto-Modus in contour-crafting.py empfohlen
 - Die Reparaturfunktionen können nicht alle Probleme beheben - für komplexe Reparaturen werden spezialisierte
   3D-Modellierungswerkzeuge empfohlen
+- Bei Text-zu-STL werden je nach Betriebssystem Standardschriftarten genutzt, wenn keine explizite Schriftart angegeben wird
